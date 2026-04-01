@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+h2{
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h1{
+    font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 15px;
+    color: black;
+    padding: 9px 18px;
+    display: inline-block;
+}
+
