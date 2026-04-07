@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    font-family: "Inter Tight", sans-serif;
+    display: inline-block;
+    padding: 16px 32px;
+    text-decoration: none;
+
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.black{
+    color: #000;
+}
+
+.white{
+    color: white;
+}
+
+.fond-vert{
+    background-color: #61ff7b;
+}
+
+.fond-bleu{
+    background-color: #1398a0;
+}
+
+.gellule{
+    border-radius: 400px;
+}
+
+.radius-8{
+    border-radius: 8px;
+}
+
+.radius-0-32{
+    border-radius: 0px 32px;
+}
+
+.border-solid-black{
+    border: solid black 1px;
+}
+
+.border-dashed-black{
+    border: dashed 2px black;
+}
+
+.card{
+    width: 28%;
+    padding: 8px;
+    background-color: rgb(220, 230, 230);
+    border-radius: 16px;
+    font-family: sans-serif;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.border-8{
+    border-radius: 8px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.flex{
+    display: flex;
+
+}
+
+.space-around{
+    justify-content: space-around;
+}

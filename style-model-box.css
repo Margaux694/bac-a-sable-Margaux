@@ -1,0 +1,19 @@
+.red {
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.img{
+
+}
+
+.btn {
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
