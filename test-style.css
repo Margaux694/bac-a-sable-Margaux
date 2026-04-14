@@ -1,0 +1,101 @@
+/* --- RESET & BASES --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: #0b1a26; /* Bleu nuit sombre */
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.conteneur {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* --- HEADER FIXE --- */
+.entete-principale {
+    position: fixed;
+    top: 0; width: 100%;
+    padding: 30px 0;
+    z-index: 1000;
+    background: linear-gradient(to bottom, rgba(11,26,38,0.8), transparent);
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul { display: flex; list-style: none; gap: 30px; }
+.navigation a, .logo, .compte { text-decoration: none; color: white; font-weight: bold; }
+
+/* --- SECTION HERO --- */
+.section-hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('img/hero-bg.jpg'); /* Ton image de montagne */
+    background-size: cover;
+    background-position: center;
+}
+
+h1 { font-size: 4rem; max-width: 800px; margin: 20px 0; font-family: 'Georgia', serif; }
+
+.surtitre-jaune { color: #FBD784; letter-spacing: 4px; font-weight: bold; text-transform: uppercase; }
+
+/* --- SECTIONS AVENTURE (Les 3 blocs) --- */
+.section-aventure { padding: 100px 0; }
+
+.conteneur-flex {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.conteneur-flex.inverse { flex-direction: row-reverse; }
+
+.bloc-texte, .bloc-image { flex: 1; position: relative; }
+
+.chiffre-fond {
+    font-size: 12rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.05);
+    position: absolute;
+    top: -80px; left: -50px;
+    z-index: -1;
+}
+
+h2 { font-size: 3rem; margin: 20px 0; font-family: 'Georgia', serif; }
+
+.lien-jaune { color: #FBD784; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 20px; }
+
+.bloc-image img { width: 100%; border-radius: 4px; }
+
+/* --- FOOTER --- */
+.pied-page { padding: 100px 0; background-color: #0b1a26; }
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-info { flex: 2; }
+.footer-info p { margin-top: 20px; color: #ccc; max-width: 300px; }
+.copyright { font-size: 0.8rem; margin-top: 60px !important; opacity: 0.5; }
+
+.footer-liens { flex: 1; }
+.titre-footer { color: #FBD784; font-weight: bold; margin-bottom: 20px; }
+.footer-liens ul { list-style: none; }
+.footer-liens li { margin-bottom: 10px; }
+.footer-liens a { color: white; text-decoration: none; font-size: 0.9rem; }
+
+/* --- RESPONSIVE SIMPLE --- */
+@media (max-width: 900px) {
+    .conteneur-flex, .conteneur-flex.inverse, .flex-footer { flex-direction: column; text-align: center; }
+    h1 { font-size: 2.5rem; }
+}
