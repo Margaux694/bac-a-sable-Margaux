@@ -1,0 +1,38 @@
+
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.bg-color{
+    background-color: #0B1D26;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+/*flexbox*/
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+
